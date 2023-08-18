@@ -2,7 +2,7 @@
 # Basic Version and Branch Management (Git)
 
 > <h2 style="border-bottom:none">Soal Prioritas 1</h2>
-- Saya telah membuat repository dengan nama ``Flutter_Muhammad-Aryaputra-Adji``
+- Saya telah membuat repository dengan nama ``flutter_Muhammad-Aryaputra-Adji``
 - Saya menggunakan format folder tugas sebagai berikut :   
   ``Minggu-1/``  
   &emsp;``1. Judul Materi 1 pada Minggu-1``  
