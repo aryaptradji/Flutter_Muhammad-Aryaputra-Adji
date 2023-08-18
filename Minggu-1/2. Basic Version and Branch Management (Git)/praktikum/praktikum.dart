@@ -1,3 +1,3 @@
 void main() {
-  print("Ini adalah file praktikum.dart")
+  print("Ini adalah file praktikum.dart");
 }
