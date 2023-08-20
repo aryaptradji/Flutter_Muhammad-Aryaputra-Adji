@@ -16,11 +16,11 @@
         dst.  
       Minggu-3/  
       dst.   
-      
+
   Kemudian, di dalamnya ada folder ``praktikum`` dan ``screenshot``, serta file ``README.md``.
 
 
-![folder repo pengumpulan tugas github.png](../screenshot/folder-repo-pengumpulantugas-github.png "Folder Repo Pengumpulan Tugas GitHub")
+  ![folder repo pengumpulan tugas github.png](../screenshot/folder-repo-pengumpulantugas-github.png "Folder Repo Pengumpulan Tugas GitHub")
 
 <br>
 
