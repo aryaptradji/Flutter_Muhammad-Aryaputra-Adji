@@ -1,4 +1,4 @@
-`` # Summary ``
+# Summary
 # Introduction Mobile App Development
 
 > **Poin 1**
