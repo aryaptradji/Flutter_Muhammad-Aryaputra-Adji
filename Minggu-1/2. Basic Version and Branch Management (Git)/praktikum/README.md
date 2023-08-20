@@ -26,6 +26,22 @@
 
 > <h2 style="border-bottom:none">Soal Prioritas 2</h2>
 
+> // Membuat Branch  
+
+- Saya membuat branch ``master``, ``development``, ``featureA``, dan ``featureB`` melalui git bash dengan command :  
+
+      git branch <nama branch>          
+
+![git-branch.png](../screenshot/git-branch.png "Membuat branch dengan git branch")
+
+> // Menggunakan git pull
+
+- Saya menggunakan git pull di branch ``featureB`` untuk mengunduh pembaruan terbaru dari remote ``origin/featureB``
+- Saya menggunakan command di bawah karena  
+
+      git pull 
+
+
 
 > // Membuat Branch  
 
