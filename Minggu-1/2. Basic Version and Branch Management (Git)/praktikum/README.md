@@ -97,6 +97,7 @@
   ![gitmerge-conflict-bash.png](../screenshot/gitmerge-conflict-bash.png "Git merge conflict")
 
 - Disini saya juga langsung melakukan manajemen konflik karena terdapat perubahan file yang sama dan pada baris yang sama dalam file `README.md`.
+  
   ![gitmerge-fix-conflict.png](../screenshot/gitmerge-fix-conflict.png "Fix conflict in VSCode")
 
 - Setelah conflict fixed, saya baru melanjutkan merge dengan melakukan commit.
