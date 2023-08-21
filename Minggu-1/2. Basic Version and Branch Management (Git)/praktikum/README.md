@@ -121,3 +121,9 @@
 
 > **SOAL EKSPLORASI**
 
+- Berikut merupakan Git Graph dan GitHub Flow dari projek &nbsp;`flutter_Muhammad Aryaputra Adji`
+  ![git-graph.png](../screenshot/git-graph.png "Git Graph")
+
+  ![github-flow.png](../screenshot/github-flow.png "GitHub Flow")
+
+  Untuk melihat projek, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji.git)
