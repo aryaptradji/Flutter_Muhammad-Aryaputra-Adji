@@ -44,7 +44,8 @@
       git pull 
 
   Jika sudah melakukan upstream dengan &nbsp;`-u`&nbsp;, seperti pada gambar di bawah :
-  
+
+
   ![git-pull-featureB.png](../screenshot/git-pull-featureB.png "Git pull featureB")
 
   atau dengan command :  
@@ -52,6 +53,7 @@
       git pull <nama remote> <nama branch>
 
   Jika belum melakukan upstream, seperti pada gambar di bawah :
+
 
   ![git-pull-master.png](../screenshot/git-pull-master.png "Git pull master")
 
