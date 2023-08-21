@@ -116,7 +116,7 @@
       git push -u <nama remote> <nama branch>
 
   Jika sudah dilakukan upstream.
-  
+
   ![gitpush-conflict-fixed](../screenshot/gitpush-conflict-fixed.png "Git push")
 
 <br>
@@ -124,6 +124,7 @@
 > **SOAL EKSPLORASI**
 
 - Berikut merupakan Git Graph dan GitHub Flow dari projek &nbsp;`flutter_Muhammad Aryaputra Adji`
+- 
   ![git-graph.png](../screenshot/git-graph.png "Git Graph")
 
   ![github-flow.png](../screenshot/github-flow.png "GitHub Flow")
