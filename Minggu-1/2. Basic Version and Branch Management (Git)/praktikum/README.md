@@ -44,6 +44,7 @@
       git pull 
 
   Jika sudah melakukan upstream dengan &nbsp;`-u`&nbsp;, seperti pada gambar di bawah :
+  
   ![git-pull-featureB.png](../screenshot/git-pull-featureB.png "Git pull featureB")
 
   atau dengan command :  
@@ -51,6 +52,7 @@
       git pull <nama remote> <nama branch>
 
   Jika belum melakukan upstream, seperti pada gambar di bawah :
+
   ![git-pull-master.png](../screenshot/git-pull-master.png "Git pull master")
 
 <br>
@@ -79,6 +81,8 @@
   <br>
 
 - Penerapannya seperti pada gambar di bawah :  
+
+
   ![gitstash-draft-bold.png](../screenshot/gitstash-draft-bold.png "Git stash bold")
 
   ![gitstash-draft-bold.png](../screenshot/gitstash-draft-italic.png "Git stash italic")
@@ -101,6 +105,8 @@
   ![gitmerge-fix-conflict.png](../screenshot/gitmerge-fix-conflict.png "Fix conflict in VSCode")
 
 - Setelah conflict fixed, saya baru melanjutkan merge dengan melakukan commit.
+
+
   ![gitmerge-conflict-fixed-1.png](../screenshot/gitmerge-conflict-fixed-1.png "Git add to staging file") 
   ![gitmerge-conflict-fixed-2.png](../screenshot/gitmerge-conflict-fixed-2.png "Git commit to merge with conflict fixed")
 
