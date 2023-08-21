@@ -1,13 +1,13 @@
 # Summary
 # Introduction Mobile App Development
 
-> **Poin 1**
+> **POIN 1**
 
 Materi ini membahas tentang pengetahuan umum dan *basic* seputar *Mobile App Development* untuk mengenalkan bagaimana dunia pengembangan aplikasi *mobile*, baik Android maupun iOS.
 
 <br>
 
-> **Poin 2**
+> **POIN 2**
 
 Dalam pengembangan aplikasi *mobile*, terutama untuk platform Android dan menggunakan kerangka kerja seperti Flutter, terdapat beberapa komponen penting yang terlibat. Berikut adalah penjelasan singkat tentang komponen-komponen tersebut :  
 1. **Bahasa Pemrograman** : Pemrograman adalah proses menulis kode yang akan dijalankan oleh komputer atau perangkat. Untuk pengembangan Android, bahasa pemrograman yang umum digunakan adalah Java dan Kotlin. Sementara itu, Flutter menggunakan bahasa pemrograman Dart. 
@@ -19,7 +19,7 @@ Dalam pengembangan aplikasi *mobile*, terutama untuk platform Android dan menggu
   
 <br>
 
-> **Poin 3**
+> **POIN 3**
 
 Berdasarkan sistem operasi yang digunakan pada perangkat *mobile*, perangkat lunak *mobile* dapat dibagi menjadi 2 kategori utama : **perangkat lunak Android** dan **perangkat lunak iOS**.
 
