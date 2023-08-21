@@ -116,6 +116,7 @@
       git push -u <nama remote> <nama branch>
 
   Jika sudah dilakukan upstream.
+  
   ![gitpush-conflict-fixed](../screenshot/gitpush-conflict-fixed.png "Git push")
 
 <br>
