@@ -1,5 +1,5 @@
 # Praktikum
-# Basic Version and Branch Management (Git)
+# Basic Version Control and Branch Management (Git)
 
 > **SOAL PRIORITAS 1**
 - Saya telah membuat repository dengan nama `flutter_Muhammad-Aryaputra-Adji`
@@ -137,5 +137,3 @@
   ![git-graph.png](../screenshot/git-graph.png "Git Graph")
 
   ![github-flow.png](../screenshot/github-flow.png "GitHub Flow")
-
-  Untuk melihat projek, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji.git)
