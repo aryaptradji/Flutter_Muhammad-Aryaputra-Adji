@@ -2,7 +2,7 @@
 # Basic Version Control and Branch Management (Git)
 
 Berikut ini merupakan Git command yang berhasil saya pelajari :
-### Command Dasar
+## Command Dasar
 `git init`&nbsp; : inisialiasi local working directory ke repository
 
 `git clone`&nbsp; : mengunduh projek dari repository ke dalam local directory
@@ -15,7 +15,9 @@ Berikut ini merupakan Git command yang berhasil saya pelajari :
 
 `git log`&nbsp; : melihat history perubahan yang sudah dilakukan
 
-### Command Branching and Merging
+<br>
+
+## Command Branching and Merging
 `git branch`&nbsp; : melakukan pengecekan status branch, dan membuat/menghapus branch baru
 
 `git checkout`&nbsp; : memindahkan pointer HEAD ke branch/commit lain
@@ -24,7 +26,9 @@ Berikut ini merupakan Git command yang berhasil saya pelajari :
 
 `git rebase`&nbsp; : menyusun ulang base commit agar ketika melakukan merge menjadi lebih rapih
 
-### Command Remote Repository
+<br>
+
+## Command Remote Repository
 `git remote`&nbsp; : menghubungkan/melepaskan local directory ke remote repository, dan juga menampilkan remote mana yang terhubung
 
 `git fetch`&nbsp; : mengunduh perubahan terbaru commit apa saja yang sudah terjadi di remote dan juga branch baru apa saja yang sudah dibuat di remote ke dalam local directory
@@ -33,7 +37,9 @@ Berikut ini merupakan Git command yang berhasil saya pelajari :
 
 `git push`&nbsp; : mengunggah perubahan terbaru source code dan commit yang sudah dilakukan di local directory ke remote repository
 
-### Command Lainnya
+<br>
+
+## Command Lainnya
 `git diff`&nbsp; : menampilkan perubahan source code mana yang terjadi di dalam file
 
 `git tag`&nbsp; : memberikan tag pada commit tertentu
@@ -46,7 +52,7 @@ Berikut ini merupakan Git command yang berhasil saya pelajari :
 
 <br>
 
-### Hasil Praktikum
+## Hasil Praktikum
 ![commit-histoy-github.png](screenshot/commit-history-github.png "Commit History GitHub")
 
 ![github-flow.png](screenshot/github-flow.png "GitHub Flow")
