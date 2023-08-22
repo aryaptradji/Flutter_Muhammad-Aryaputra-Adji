@@ -1,7 +1,7 @@
 # Praktikum
 # Basic Version Control and Branch Management (Git)
 
-> **SOAL PRIORITAS 1**
+### **SOAL PRIORITAS 1**
 - Saya telah membuat repository dengan nama `flutter_Muhammad-Aryaputra-Adji`
 - Saya menggunakan format folder tugas sebagai berikut :  
   
@@ -24,7 +24,7 @@
 
 <br>
 
-> **SOAL PRIORITAS 2**
+### **SOAL PRIORITAS 2**
 
 **// Menggunakan &nbsp;`git branch`**
 
@@ -129,7 +129,7 @@
 
 <br>
 
-> **SOAL EKSPLORASI**
+### **SOAL EKSPLORASI**
 
 - Berikut merupakan Git Graph dan GitHub Flow dari projek &nbsp;`flutter_Muhammad Aryaputra Adji`
 
