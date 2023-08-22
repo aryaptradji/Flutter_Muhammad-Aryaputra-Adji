@@ -119,11 +119,11 @@
 
       git push
 
-  Jika belum dilakukan upstream dengan &nbsp;`-u`&nbsp;, atau 
+  Jika sudah dilakukan upstream dengan &nbsp;`-u`&nbsp;, atau 
 
       git push -u <nama remote> <nama branch>
 
-  Jika sudah dilakukan upstream.
+  Jika belum dilakukan upstream.
 
   ![gitpush-conflict-fixed](../screenshot/gitpush-conflict-fixed.png "Git push")
 
