@@ -10,9 +10,9 @@
         2. Judul Materi 2 pada Minggu-1  
         dst.  
       Minggu-2/
-        3. Judul Materi 1 pada Minggu-2  
-        4. Judul Materi 2 pada Minggu-2  
-        5. Judul Materi 3 pada Minggu-2  
+        1. Judul Materi 1 pada Minggu-2  
+        2. Judul Materi 2 pada Minggu-2  
+        3. Judul Materi 3 pada Minggu-2  
         dst.  
       Minggu-3/  
       dst.   
