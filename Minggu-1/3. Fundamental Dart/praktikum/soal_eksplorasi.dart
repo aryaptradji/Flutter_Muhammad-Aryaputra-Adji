@@ -1,5 +1,5 @@
 void main() {
-  // Soal [1]
+  //* Soal [1]
   print("Soal [1]");
   // Kata yang akan dicek
   String input = "aku suka";
@@ -23,7 +23,7 @@ void main() {
   }
   print("\n");
 
-  // Soal [2]
+  //? Soal [2]
   print("Soal [2]");
   int bilangan = 24; // Bilangan yang akan dicari faktornya
 
