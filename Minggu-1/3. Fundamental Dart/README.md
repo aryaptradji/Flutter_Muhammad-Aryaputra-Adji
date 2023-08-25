@@ -249,4 +249,4 @@
 
 <br>
 
-Untuk melihat hasil praktikum lebih lengkapnya, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-1/2.%20Basic%20Version%20and%20Branch%20Management%20(Git)/praktikum)
+Untuk melihat hasil praktikum lebih lengkapnya, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-1/3.%20Fundamental%20Dart/praktikum)
