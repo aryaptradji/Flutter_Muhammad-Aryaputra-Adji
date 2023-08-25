@@ -102,7 +102,7 @@
 ### **SOAL PRIORITAS 2**
 
 *SOAL 1*  
-// Menggabungkan 3 variabel dengan tipe data &nbsp;`String`&nbsp;
+**// Menggabungkan 3 variabel dengan tipe data &nbsp;`String`&nbsp;**
 
 - Saya mengawali dengan melakukan inisiasi terhadap variabel &nbsp;`hello`&nbsp;, &nbsp;`greet`&nbsp;, dan &nbsp;`nama`&nbsp;
 
@@ -129,7 +129,8 @@
 
 <br>
 
-*SOAL 2*
+*SOAL 2*  
+**// Menghitung volume tabung**
 
 - Saya mengawali dengan inisiasi variabel &nbsp;`tinggi`&nbsp; dan &nbsp;`jariJari`&nbsp; dengan tipe data double
 
@@ -159,3 +160,93 @@
 ***Hasil output yang dihasilkan :**
 
 ![output-soalPrioritas2.png](screenshot/output-soalPrioritas2.png)
+
+<br><br>
+
+### **SOAL EKSPLORASI**
+
+*SOAL 1*  
+**// Mengecek sebuah kata dikategorikan sebagai palindrom atau bukan palindrom**
+
+- Saya mengawali dengan inisiasi sebuah variabel &nbsp;`inputY`&nbsp; dan &nbsp;`inputN`&nbsp;
+
+    ```dart
+    // Kata yang akan dicek
+    String inputY = "aku suka";
+    String inputN = "mobil balap";
+    ```
+
+- Lalu, saya melakukan penghapusan spasi dari kata dan mengubah menjadi huruf kecil semua 
+
+    ```dart
+    // Menghapus spasi dari kata dan mengubah menjadi huruf kecil semua
+    String cleanedInputY = inputY.replaceAll(' ', '').toLowerCase();
+    String cleanedInputN = inputN.replaceAll(' ', '').toLowerCase();
+
+    bool isPalindromeY = true;
+    bool isPalindromeN = true;
+
+    for (int i = 0; i < cleanedInputY.length ~/ 2; i++) {
+        if (cleanedInputY[i] != cleanedInputY[cleanedInputY.length - 1 - i]) {
+        isPalindromeY = false;
+        break;
+        }
+    }
+    for (int i = 0; i < cleanedInputN.length ~/ 2; i++) {
+        if (cleanedInputN[i] != cleanedInputN[cleanedInputN.length - 1 - i]) {
+        isPalindromeN = false;
+        break;
+        }
+    }
+    ```
+
+- Kemudian, saya menentukan hasil apakah sebuah kata termasuk kategori palindrom atau bukan dengan pengkondisian &nbsp;`if`&nbsp; dan menampilkannya dengan &nbsp;`print`&nbsp;
+  
+    ```dart
+    // Menampilkan hasil
+    if (isPalindromeY) {
+        print("$inputY = palindrom");
+    } else {
+        print("$inputY = bukan palindrom");
+    }
+    if (isPalindromeN) {
+        print("$inputN = palindrom");
+    } else {
+        print("$inputN = bukan palindrom");
+    }
+    ```
+
+<br>
+
+*SOAL 2*  
+**// Mencari faktor dari suatu bilangan**
+
+- Saya melakukan inisiasi variabel &nbsp;`bilangan` bernilai 24 sebagai bilangan yang akan dicari faktornya
+
+    ```dart
+    // Bilangan yang akan dicari faktornya
+    int bilangan = 24;
+    ```
+
+- Setelah itu, saya menggunakan looping &nbsp;`for`&nbsp; yang akan mencetak bilangan 1-23 yang dikondisikan dengan &nbsp;`if`&nbsp; jika &nbsp;`bilangan`&nbsp; dibagi dengan &nbsp;`i`&nbsp; menghasilkan modulus 0 maka akan dicetak dengan &nbsp;`print`&nbsp;
+
+    ```dart
+    // Menampilkan hasil
+    print("Faktor dari $bilangan adalah:");
+
+    for (int i = 1; i < bilangan; i++) {
+        if (bilangan % i == 0) {
+        print(i);
+        }
+    }
+    ```
+
+<br>
+
+***Hasil output yang dihasilkan :**
+
+![output-soalEksplorasi.png](screenshot/output-soalEksplorasi.png)
+
+<br>
+
+Untuk melihat hasil praktikum lebih lengkapnya, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-1/2.%20Basic%20Version%20and%20Branch%20Management%20(Git)/praktikum)
