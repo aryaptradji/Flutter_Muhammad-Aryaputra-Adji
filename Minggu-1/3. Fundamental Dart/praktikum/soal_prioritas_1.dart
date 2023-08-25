@@ -1,5 +1,4 @@
 void main(List<String> args) {
-  //# Rumus Keliling dan Luas Persegi
   // sisi persegi
   int s = 10;
 
