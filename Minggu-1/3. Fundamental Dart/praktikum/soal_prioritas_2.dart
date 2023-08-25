@@ -1,4 +1,6 @@
 void main(List<String> args) {
+  //* Soal [1]
+  print("Soal [1]");
   // membuat 3 variabel string
   String hello = "Hello";
   String greet = "Good Morning";
@@ -9,4 +11,8 @@ void main(List<String> args) {
 
   // Mmnampilkan hasil
   print(hasil);
+  print("\n");
+
+  //? Soal [2]
+  print("Soal [2]");
 }

@@ -1,6 +1,4 @@
-import 'dart:math';
-
-void main(List<String> args) {
+void main() {
   //* Soal [1]
   print("// Soal [1]");
   // Menentukan nilai sisi persegi
@@ -29,16 +27,16 @@ void main(List<String> args) {
   print('Keliling Persegi Panjang: $keliling_persegipanjang');
   print('Luas Persegi Panjang: $luas_persegipanjang\n');
 
-  //? Soal 2
+  //? Soal [2]
   print("// Soal [2]");
   // Menentukan nilai jari-jari lingkaran
-  double jariJari_lingkaran = 5.0;
+  double jariJari = 5.0;
 
   // Menghitung keliling lingkaran
-  double keliling_lingkaran = 2 * pi * jariJari_lingkaran;
+  double keliling_lingkaran = 2 * 3.14 * jariJari;
 
   // Menghitung luas lingkaran
-  double luas_lingkaran = pi * pow(jariJari_lingkaran, 2);
+  double luas_lingkaran = 3.14 * jariJari * jariJari;
 
   // Menampilkan hasil keliling dan luas lingkaran
   print('Keliling Lingkaran: $keliling_lingkaran');
