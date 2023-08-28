@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   //* Tugas Looping
   //* Soal [1]
-  print("Tugas Looping\n// Soal [1]");
+  print("TUGAS LOOPING\n// Soal [1]");
   // Menentukan jumlah baris piramida bintang
   int rows = 8;
 
@@ -74,7 +74,7 @@ void main() {
   print("Faktorial dari 50: ${calculateFaktorial(50)}");
 
 //? Tugas Function
-  print("\nTugas Function");
+  print("\nTUGAS FUNCTION");
   // Deklarasi radius
   double radius;
 
@@ -90,13 +90,3 @@ void main() {
   // Menampilkan hasil fungsi luas lingkaran
   print("Luas lingkaran dengan jari-jari $radius adalah $area");
 }
-
-
-
-  
-
-  
-
-// double calculateCircleArea(double radius) {
-//   return 3.14159 * radius * radius; // Rumus luas lingkaran: π * r^2
-// }
