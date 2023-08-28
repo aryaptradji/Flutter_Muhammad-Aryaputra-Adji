@@ -1,10 +1,12 @@
 void main() {
 //* Tugas Percabangan (Branching)
   print("// Tugas Percabangan (Branch)");
+  // Menentukan nilai yang akan dicek
   int nilai1 = 85;
   int nilai2 = 50;
   int nilai3 = 25;
 
+  // Membuat function dengan pengkondisian if untuk kategori nilai tertentu
   String checkNilai(int nilai) {
     if (nilai > 70) {
       return "Nilai A";
