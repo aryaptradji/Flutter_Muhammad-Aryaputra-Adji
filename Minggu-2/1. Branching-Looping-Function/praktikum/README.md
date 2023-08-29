@@ -42,7 +42,7 @@
 <br>
 
 **// Tugas Perulangan (Looping)**
-- Diawali dengan langsung menginisiasi variabel ke dalam loop &nbsp;`for`&nbsp; yang berisikan variabel &nbsp;`i`&nbsp; sebagai iterasi bernilai 1. Kemudian, dikondisikan selama &nbsp;`i`&nbsp; bernilai lebih kecil sama dengan dari 10 maka akan terus melakukan looping, dan juga mencetak nilai dari &nbsp`i`&nbsp; dengan &nbsp;`print`&nbsp;
+- Diawali dengan langsung menginisiasi variabel ke dalam loop &nbsp;`for`&nbsp; yang berisikan variabel &nbsp;`i`&nbsp; sebagai iterasi bernilai 1. Kemudian, dikondisikan selama &nbsp;`i`&nbsp; bernilai lebih kecil sama dengan dari 10 maka akan terus melakukan looping, dan juga mencetak nilai dari &nbsp;`i`&nbsp; dengan &nbsp;`print`&nbsp;
 
   ```dart
   for (var i = 1; i <= 10; i++) {
