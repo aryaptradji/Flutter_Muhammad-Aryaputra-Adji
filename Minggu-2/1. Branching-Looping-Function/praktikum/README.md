@@ -52,6 +52,8 @@
 
 <br>
 
+***Hasil output yang dihasilkan :**
+
 ![output-soalPrioritas1.png](../screenshot/output-soalPrioritas1.png)
 
 <br><br>
@@ -190,6 +192,8 @@
   ```
 
 <br>
+
+***Hasil output yang dihasilkan :**
 
 ![output-soalPrioritas2.png](../screenshot/output-soalPrioritas2.png)
 
