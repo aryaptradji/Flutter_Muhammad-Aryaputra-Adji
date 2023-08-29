@@ -199,7 +199,7 @@
 
 <br><br>
 
-*SOAL EKSPLORASI*  
+### **SOAL EKSPLORASI**  
 **// Soal 1 : Membuat fungsi untuk mengecek bilangan prima atau bukan bilangan prima**
 - Saya mengawali dengan membuat suatu fungsi boolean dengan sebuah parameter untuk mengecek bilangan prima atau bukan bilangan prima
 
