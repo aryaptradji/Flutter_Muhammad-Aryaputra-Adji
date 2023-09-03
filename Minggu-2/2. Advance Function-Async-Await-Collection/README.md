@@ -5,7 +5,7 @@
 Dalam bahasa Dart, terdapat fitur `advance function-async-await-collection` yang memungkinkan kita untuk melakukan pemrograman asynchronous dengan lebih mudah dan efisien. Berikut adalah penjelasan mengenai masing-masing fitur tersebut.
 
 ### **Async-Await**
-`Async-Await` adalah Fitur yang digunakan untuk mengelola operasi asinkron (misalnya, pembacaan file atau panggilan jaringan) tanpa harus menghentikan eksekusi program. Ini memungkinkan program Anda untuk tetap responsif dan tidak menghambat antarmuka pengguna.
+`Async-Await` adalah fitur yang digunakan untuk mengelola operasi asinkron (misalnya, pembacaan file atau panggilan jaringan) tanpa harus menghentikan eksekusi program. Ini memungkinkan program Anda untuk tetap responsif dan tidak menghambat antarmuka pengguna.
 1. &nbsp;`Async`&nbsp;: Untuk menandai bahwa sebuah fungsi adalah asynchronous. Fungsi yang ditandai dengan async dapat mengandung keyword await.
 2. &nbsp;`Await`&nbsp;: Untuk menunggu hasil dari eksekusi fungsi asynchronous lainnya. Ketika await digunakan, eksekusi program akan menunggu sampai fungsi asynchronous tersebut selesai dijalankan.  
 
