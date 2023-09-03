@@ -69,7 +69,7 @@ Collection adalah kumpulan objek yang dapat diakses dan dimanipulasi. Terdapat b
 ![code-soalPrioritas2.png](screenshot/code-soalPrioritas2-1.png)
 ![code-soalPrioritas2.png](screenshot/code-soalPrioritas2-2.png)
 
-**// Output1**
+**// Output**
 
 ![output-soalPrioritas2.png](screenshot/output-soalPrioritas2.png)
 
