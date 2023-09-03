@@ -48,7 +48,7 @@
 
 ***Hasil output yang dihasilkan :**
 
-![output-soalEksplorasi1.png](../screenshot/output-soalPrioritas1.png)
+![output-soalPrioritas1.png](../screenshot/output-soalPrioritas1.png)
 
 <br><br>
 
