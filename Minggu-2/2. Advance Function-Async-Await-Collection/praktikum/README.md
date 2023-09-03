@@ -146,7 +146,7 @@
     });
   }
   ```
-  Pada contoh di atas, kita mendefinisikan sebuah fungsi `factorialAsync` yang menerima parameter `n` sebagai bilangan yang akan dihitung faktorialnya. Fungsi ini menggunakan `async` dan `await` untuk melakukan perhitungan faktorial secara rekursif.
+  Saya membuat sebuah fungsi `factorialAsync` yang menerima parameter `n` sebagai bilangan yang akan dihitung faktorialnya. Fungsi ini menggunakan `async` dan `await` untuk melakukan perhitungan faktorial secara rekursif.
 
   Dalam fungsi `main()`, kita mendefinisikan input yang ingin kita hitung faktorialnya, yaitu `5`. Kemudian, kita memanggil fungsi `factorialAsync` dengan input tersebut. Kita menggunakan `then` untuk menangani hasil yang dikembalikan oleh fungsi `factorialAsync` dan mencetaknya menggunakan `print`. Jika terjadi error, kita menggunakan `catchError` untuk menangani error tersebut dan mencetak pesan error.
 
@@ -195,7 +195,7 @@
     print(uniqueData2);
   }
   ```
-  Pada contoh di atas, kita memiliki dua list, yaitu `data1` dan `data2`. Kita menggunakan fungsi `removeDuplicates` untuk menghilangkan nilai yang sama dari setiap list. Fungsi tersebut menggunakan perulangan `for` untuk memeriksa setiap item pada list. Jika item belum ada dalam list `uniqueData`, maka item tersebut ditambahkan ke dalam list `uniqueData`. Akhirnya, kita mencetak list `uniqueData` untuk melihat hasilnya.
+  Saya membuat 2 list, yaitu `data1` dan `data2`. Kita menggunakan fungsi `removeDuplicates` untuk menghilangkan nilai yang sama dari setiap list. Fungsi tersebut menggunakan perulangan `for` untuk memeriksa setiap item pada list. Jika item belum ada dalam list `uniqueData`, maka item tersebut ditambahkan ke dalam list `uniqueData`. Akhirnya, kita mencetak list `uniqueData` untuk melihat hasilnya.
 
 <br>
 
@@ -224,7 +224,7 @@
     });
   }
   ```
-  Pada contoh di atas, kita menggunakan package `collection` dan mengimpornya menggunakan `import 'package:collection/collection.dart';`. Kemudian, kita menggunakan fungsi `countFrequency` untuk menghitung frekuensi kemunculan setiap data dalam list. Fungsi tersebut menggunakan perulangan `for` untuk memeriksa setiap item dalam list. Kita menggunakan operator `??` untuk menginisialisasi nilai frekuensi dengan 0 jika item belum ada dalam map `frequency`. Selanjutnya, kita mencetak map `frequency` untuk melihat hasilnya.
+  Saya menggunakan fungsi `countFrequency` untuk menghitung frekuensi kemunculan setiap data dalam list. Fungsi tersebut menggunakan perulangan `for` untuk memeriksa setiap item dalam list. Kita menggunakan operator `??` untuk menginisialisasi nilai frekuensi dengan 0 jika item belum ada dalam map `frequency`. Selanjutnya, kita mencetak map `frequency` untuk melihat hasilnya.
 
   <br>
 

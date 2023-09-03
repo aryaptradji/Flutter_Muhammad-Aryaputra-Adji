@@ -30,3 +30,63 @@ Dalam contoh ini, &nbsp;`await`&nbsp; digunakan untuk menunggu hingga operasi fe
 
 ### **Collection**
 Collection adalah kumpulan objek yang dapat diakses dan dimanipulasi. Terdapat beberapa jenis collection yang dapat digunakan, antara lain &nbsp;`List`&nbsp;, &nbsp;`Set`&nbsp;, dan &nbsp;`Map`&nbsp;.
+1. &nbsp;`List`&nbsp;: Kumpulan objek yang diurutkan berdasarkan indeks. Contoh :  
+   ```dart
+   List<int> numbers = [1, 2, 3, 4, 5];
+   numbers.add(6);
+   int firstNumber = numbers[0];
+   ```
+2. &nbsp;`Set`&nbsp;: Kumpulan objek yang tidak memiliki urutan dan tidak mengizinkan duplikasi. Contoh :  
+   ```dart
+   Set<String> uniqueNames = {"Alice", "Bob", "Alice"};
+   // Set hanya akan menyimpan satu "Alice"
+   ```
+3. &nbsp;`Map`&nbsp;: Kumpulan objek yang terdiri dari pasangan key-value. Contoh :  
+   ```dart
+   Map<String, int> ages = {"Alice": 30, "Bob": 25, "Carol": 35};
+   int aliceAge = ages["Alice"]; // Mengakses nilai dengan kunci "Alice"
+   ```
+
+<br><br>
+
+# Hasil Praktikum
+
+### **SOAL PRIORITAS 1**
+**// Source Code**
+
+![code-soalPrioritas1.png](../1.%20Branching-Looping-Function/screenshot/code-soalPrioritas1.png)
+
+**// Output**
+
+![output-soalPrioritas1.png](screenshot/output-soalPrioritas1.png)
+
+<br>
+
+### **SOAL PRIORITAS 2**
+
+**// Source Code**
+
+![code-soalPrioritas2.png](screenshot/code-soalPrioritas2-1.png)
+![code-soalPrioritas2.png](screenshot/code-soalPrioritas2-2.png)
+
+**// Output1**
+
+![output-soalPrioritas2.png](screenshot/output-soalPrioritas2.png)
+
+<br>
+
+### **SOAL EKSPLORASI**
+
+**// Source Code**
+
+![code-soalEksplorasi.png](screenshot/code-soalEksplorasi-1.png)
+![code-soalEksplorasi.png](screenshot/code-soalEksplorasi-2.png)
+![code-soalEksplorasi.png](screenshot/code-soalEksplorasi-3.png)
+
+**// Output**
+
+![output-soalEksplorasi.png](screenshot/output-soalEksplorasi.png)
+
+<br><br>
+
+Untuk melihat hasil praktikum lebih lengkapnya, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-2/1.%20Branching-Looping-Function/praktikum)

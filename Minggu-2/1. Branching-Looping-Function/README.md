@@ -168,6 +168,7 @@ Dalam Dart, *function* (fungsi) adalah blok kode yang dapat dipanggil dengan nam
 
 ![code-soalPrioritas2.png](screenshot/code-soalPrioritas2-1.png)
 ![code-soalPrioritas2.png](screenshot/code-soalPrioritas2-2.png)
+![code-soalPrioritas2.png](screenshot/code-soalPrioritas2-3.png)
 
 **// Output**
 
