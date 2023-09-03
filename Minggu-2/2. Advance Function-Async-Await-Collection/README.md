@@ -89,4 +89,4 @@ Collection adalah kumpulan objek yang dapat diakses dan dimanipulasi. Terdapat b
 
 <br><br>
 
-Untuk melihat hasil praktikum lebih lengkapnya, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-2/1.%20Branching-Looping-Function/praktikum)
+Untuk melihat hasil praktikum lebih lengkapnya, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-2/2.%20Advance%20Function-Async-Await-Collection/praktikum)
