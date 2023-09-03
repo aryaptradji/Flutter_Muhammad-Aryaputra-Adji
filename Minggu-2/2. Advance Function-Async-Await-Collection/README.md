@@ -22,7 +22,6 @@ void main() async {
   await fetchData();
   print("Proses selesai");
 }
-
 ```
 Dalam contoh ini, &nbsp;`await`&nbsp; digunakan untuk menunggu hingga operasi fetchData() selesai sebelum melanjutkan.
 
