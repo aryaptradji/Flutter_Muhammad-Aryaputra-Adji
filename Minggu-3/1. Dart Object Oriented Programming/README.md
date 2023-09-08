@@ -4,7 +4,7 @@
 
 Pemrograman Berorientasi Objek (OOP) di dalam bahasa pemrograman Dart adalah paradigma pemrograman yang mengorganisasi kode menjadi objek-objek yang dapat berinteraksi satu sama lain. Dart mendukung OOP secara penuh dan memiliki fitur-fitur yang memungkinkan kita untuk memodelkan dunia nyata dan mengorganisasi kode dengan lebih baik. Berikut adalah beberapa poin utama OOP di Dart :
 
-### **1. &nbsp;Kelas dan Objek**
+### **1. &nbsp;Kelas dan Objek (*Class and Object*)**
 Dalam Dart, kelas adalah blueprint atau template yang mendefinisikan struktur dan perilaku objek. Objek adalah instance konkret dari sebuah kelas.
 
 **Rumus :**  
@@ -25,103 +25,45 @@ class NamaKelas {
 
 **Contoh :**
 ```dart
-class Person {
-  // Properti
-  String name;
-  int age;
+class Mobil {
+  // Property atau atribut
+  String merk;
+  int tahunProduksi;
 
-  // Konstruktor
-  Person(this.name, this.age);
+  // Constructor
+  Mobil(this.merk, this.tahunProduksi);
 
-  // Metode
-  void introduce() {
-    print('Nama: $name, Usia: $age tahun');
+  // Method
+  void start() {
+    print('Mobil ${merk} mulai berjalan.');
   }
 }
-
-void main() {
-  // Membuat objek dari kelas Person
-  var person1 = Person('Alice', 25);
-  var person2 = Person('Bob', 30);
-
-  // Memanggil metode dari objek
-  person1.introduce();
-  person2.introduce();
-}
 ```
-Dalam contoh ini, saya mendefinisikan kelas `Person` dengan properti `name` dan `age`, serta metode introduce. Kita kemudian membuat objek dari kelas `Person` dan memanggil metode `introduce` pada objek-objek tersebut.
+Kelas `Mobil` memiliki dua properti: `merk` (tipe String) dan `tahunProduksi` (tipe int). Kelas ini juga memiliki constructor yang digunakan untuk menginisialisasi objek `Mobil`. Terdapat satu method yaitu `start`, yang mencetak pesan saat mobil dinyalakan.
 
-### **2. &nbsp;Pewarisan (*Inheritance*)**
-Konsep dalam OOP yang memungkinkan kita membuat class baru dengan mewarisi atribut dan metode dari class yang sudah ada. Dalam Dart, inheritance dilakukan dengan menggunakan kata kunci `extends`.
+<br>
 
-**Rumus :**
-```dart
-class SubKelas extends KelasInduk {
-  // Properti dan metode khusus subkelas
-}
-```
+### **2. &nbsp;Atribut (*Property*)**
+Property adalah variabel yang terkait dengan objek kelas. Untuk mengakses atau mengubah nilai property, dapat dilakukan dengan menggunakan operator titik &nbsp;`.`&nbsp;. Contoh penggunaan property pada objek &nbsp;`Mobil`&nbsp; :
 
 **Contoh :**
 ```dart
-class Animal {
-  String name;
-
-  Animal(this.name);
-
-  void speak() {
-    print('$name berbicara');
-  }
-}
-
-class Dog extends Animal {
-  Dog(String name) : super(name);
-
-  void bark() {
-    print('$name menggonggong');
-  }
-}
-
-void main() {
-  var dog = Dog('Fido');
-  dog.speak(); // Memanggil metode dari kelas induk
-  dog.bark();  // Memanggil metode dari subkelas
-}
+Mobil mobilBaru = Mobil('Toyota', 2023);
+print('Merk mobil: ${mobilBaru.merk}');
+print('Tahun produksi: ${mobilBaru.tahunProduksi}');
 ```
+Di sini, saya membuat objek `mobilBaru` dari kelas `Mobil` dan mengakses properti `merk` dan `tahunProduksi` menggunakan operator titik.
 
-### **3. &nbsp;Polimorfisme**
-Polimorfisme memungkinkan objek dari kelas yang berbeda untuk merespons metode dengan cara yang berbeda. Object dari suatu class parent bisa berubah bentuk menjadi object dari class childnya. Ini dapat dicapai melalui overriding dan penggunaan antarmuka (*interfaces*).
+<br>
 
-Contoh :
+### **3. &nbsp;Metode (*Method*)**
+Method adalah fungsi yang terkait dengan objek kelas dan dapat digunakan untuk melakukan tindakan tertentu pada objek tersebut. Method juga menggunakan operator titik untuk memanggil method. Contoh penggunaan method pada objek &nbsp;`Mobil`&nbsp; :
+
+**Contoh :**
 ```dart
-class Shape {
-  void draw() {
-    print('Menggambar bentuk');
-  }
-}
-
-class Circle extends Shape {
-  @override
-  void draw() {
-    print('Menggambar lingkaran');
-  }
-}
-
-class Square extends Shape {
-  @override
-  void draw() {
-    print('Menggambar persegi');
-  }
-}
-
-void main() {
-  var shapes = [Circle(), Square()];
-
-  for (var shape in shapes) {
-    shape.draw();
-  }
-}
+mobilBaru.start();
 ```
-Dalam contoh ini, saya memiliki kelas dasar `Shape` dengan metode `draw`, dan kemudian saya memiliki dua subkelas, `Circle` dan `Square`, yang melakukan overriding pada metode `draw`. Ketika saya membuat objek dari kedua subkelas tersebut dan memanggil metode `draw` pada keduanya, saya melihat polimorfisme di mana metode yang sesuai dari setiap objek dipanggil.
+Memanggil method `start()` pada objek `mobilBaru` akan mencetak pesan "Mobil Toyota mulai berjalan."
 
 <br><br>
 
