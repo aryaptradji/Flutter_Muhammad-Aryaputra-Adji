@@ -275,3 +275,7 @@ Built-in Widget dalam Flutter adalah sekelompok widget bawaan yang telah disedia
    ```dart
    Text('Halo, Dunia!')
    ```
+
+<br>
+
+Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-3/3.%20Introduction%20Flutter%20and%20Flutter%20Widget/praktikum)
