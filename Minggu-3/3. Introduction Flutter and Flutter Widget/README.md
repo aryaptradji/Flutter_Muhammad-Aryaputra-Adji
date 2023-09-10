@@ -6,9 +6,9 @@
 Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun aplikasi mobile, web, dan desktop dari satu basis kode yang sama. Salah satu aspek yang membuat Flutter menonjol adalah penggunaan bahasa pemrograman Dart untuk pengembangan aplikasi. Dart adalah bahasa pemrograman yang dikembangkan oleh Google yang memiliki sintaksis yang mudah dipahami dan kompatibel dengan pengembangan berbasis objek.
 
 Beberapa fitur utama dari Flutter adalah :  
-1. **Widget-Based** : Flutter menggunakan konsep widget sebagai komponen dasar untuk membangun antarmuka pengguna. Anda dapat menggabungkan widget-widget ini untuk membuat UI yang kaya dan kompleks.  
+1. **Widget-Based** : Flutter menggunakan konsep widget sebagai komponen dasar untuk membangun antarmuka pengguna. Dapat digabungkan widget-widget ini untuk membuat UI yang kaya dan kompleks.  
 2. **Hot Reload** : Fitur ini memungkinkan pengembang untuk melakukan perubahan dalam kode dan melihat hasilnya secara langsung dalam waktu nyata tanpa perlu menghentikan atau me-restart aplikasi. Hal ini mempercepat siklus pengembangan.
-3. **Tampilan Konsisten** : Dengan Flutter, Anda dapat menciptakan tampilan yang seragam di berbagai platform, termasuk Android dan iOS, sehingga pengguna akan merasa familiar dengan aplikasi Anda.
+3. **Tampilan Konsisten** : Dengan Flutter, dapat menciptakan tampilan yang seragam di berbagai platform, termasuk Android dan iOS, sehingga pengguna akan merasa familiar dengan aplikasi Anda.
 4. **Kinerja Cepat** : Flutter diketahui memiliki kinerja yang sangat cepat karena menggunakan rendering langsung ke GPU dan menghindari "bridge" ke native code.
 
 <br>
@@ -24,7 +24,7 @@ Beberapa fitur utama dari Flutter adalah :
 
 4. Berikan nama proyek Flutter dan pilih direktori tempat dimana ingin menyimpan proyek tersebut. Selanjutnya, pilih "Create" (Buat).
 
-5. Selanjutnya, pilih "Flutter: New Application" untuk membuat proyek aplikasi Flutter standar. Bisa juga memilih "Flutter: New Package" jika Anda ingin membuat package Flutter.
+5. Selanjutnya, pilih "Flutter: New Application" untuk membuat proyek aplikasi Flutter standar. Bisa juga memilih "Flutter: New Package" jika ingin membuat package Flutter.
 
 6. Setelah memilih jenis proyek, Flutter akan mulai membuat proyek dan mengunduh dependensi yang diperlukan. Ini akan memakan waktu yang cukup banyak.
 
@@ -53,7 +53,7 @@ Beberapa fitur utama dari Flutter adalah :
 
 **// Menjalankan projek di Terminal**
 1. Buka terminal atau command prompt di komputer.
-2. Navigasikan ke direktori proyek Flutter Anda menggunakan perintah `cd` (change directory).
+2. Navigasikan ke direktori proyek Flutter menggunakan perintah `cd` (change directory).
    ```
    cd /path/to/your/flutter/project
    ```
@@ -70,28 +70,28 @@ Selama pengembangan, terdapat fitur "hot reload" Flutter untuk melihat perubahan
 Struktur proyek Flutter memiliki hierarki yang terorganisir dengan baik untuk memfasilitasi pengembangan aplikasi. Berikut adalah komponen-komponen utama dalam struktur proyek Flutter :
 
 1. Folder `android` :  
-   Ini adalah folder yang berisi proyek Android yang dihasilkan dari Flutter. Biasanya, Anda tidak perlu banyak berinteraksi dengan folder ini, kecuali jika Anda perlu menyesuaikan beberapa konfigurasi Android tertentu.
+   Ini adalah folder yang berisi proyek Android yang dihasilkan dari Flutter. Biasanya, tidak perlu banyak berinteraksi dengan folder ini, kecuali jika perlu menyesuaikan beberapa konfigurasi Android tertentu.
 
 2. Folder `assets` :  
-Folder ini berisi berkas-berkas statis seperti gambar, font, file konfigurasi, dan sumber daya lainnya yang diperlukan oleh aplikasi Anda. Anda dapat mengakses sumber daya ini di dalam kode Flutter Anda.
+Folder ini berisi berkas-berkas statis seperti gambar, font, file konfigurasi, dan sumber daya lainnya yang diperlukan oleh aplikasi Anda. dapat mengakses sumber daya ini di dalam kode Flutter Anda.
 
 3. Folder `build` :  
-Ini adalah folder tempat Flutter menyimpan berkas-berkas yang dihasilkan selama proses kompilasi, seperti kode Dart yang telah diterjemahkan menjadi kode mesin, asset yang telah dioptimalkan, dan lain-lain. Biasanya, Anda tidak perlu berinteraksi langsung dengan folder ini.
+Ini adalah folder tempat Flutter menyimpan berkas-berkas yang dihasilkan selama proses kompilasi, seperti kode Dart yang telah diterjemahkan menjadi kode mesin, asset yang telah dioptimalkan, dan lain-lain. Biasanya, tidak perlu berinteraksi langsung dengan folder ini.
 
 4. Folder `ios` :  
-Seperti folder android, folder ini berisi proyek iOS yang dihasilkan oleh Flutter. Anda jarang perlu berinteraksi langsung dengan folder ini, kecuali jika Anda perlu menyesuaikan konfigurasi iOS khusus.
+Seperti folder android, folder ini berisi proyek iOS yang dihasilkan oleh Flutter. jarang perlu berinteraksi langsung dengan folder ini, kecuali jika perlu menyesuaikan konfigurasi iOS khusus.
 
 5. Folder `lib` :  
-Inilah tempat utama di mana Anda akan mengembangkan kode Flutter Anda. Anda akan menemukan file main.dart di dalam folder ini, yang merupakan file utama yang dijalankan saat aplikasi Flutter Anda dijalankan. Anda dapat membuat folder dan file tambahan di dalamnya sesuai dengan struktur proyek Anda.
+Inilah tempat utama di mana akan mengembangkan kode Flutter Anda. akan menemukan file main.dart di dalam folder ini, yang merupakan file utama yang dijalankan saat aplikasi Flutter dijalankan. dapat membuat folder dan file tambahan di dalamnya sesuai dengan struktur proyek Anda.
 
 6. Folder `test` :  
 Ini adalah folder yang digunakan untuk menulis tes unit dan tes integrasi untuk aplikasi Anda. Tes digunakan untuk memastikan bahwa aplikasi berfungsi dengan baik dan dapat digunakan dalam pengembangan berkelanjutan.
 
 7. File `pubspec.yaml` :  
-Ini adalah berkas konfigurasi proyek Flutter Anda. Di dalamnya, Anda mendefinisikan dependensi paket Flutter dan sumber daya lainnya yang dibutuhkan oleh aplikasi Anda. Anda juga dapat menambahkan metadata seperti nama, deskripsi, versi, dan banyak lagi.
+Ini adalah berkas konfigurasi proyek Flutter Anda. Di dalamnya, mendefinisikan dependensi paket Flutter dan sumber daya lainnya yang dibutuhkan oleh aplikasi Anda. juga dapat menambahkan metadata seperti nama, deskripsi, versi, dan banyak lagi.
 
 8. Folder `build` :  
-Ini adalah folder tempat Flutter menyimpan berkas-berkas yang dihasilkan selama proses kompilasi, seperti kode Dart yang telah diterjemahkan menjadi kode mesin, asset yang telah dioptimalkan, dan lain-lain. Biasanya, Anda tidak perlu berinteraksi langsung dengan folder ini.
+Ini adalah folder tempat Flutter menyimpan berkas-berkas yang dihasilkan selama proses kompilasi, seperti kode Dart yang telah diterjemahkan menjadi kode mesin, asset yang telah dioptimalkan, dan lain-lain. Biasanya, tidak perlu berinteraksi langsung dengan folder ini.
 
 <br>
 
