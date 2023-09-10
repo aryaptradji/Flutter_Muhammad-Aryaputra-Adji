@@ -17,6 +17,7 @@ Flutter merupakan salah satu framework open-source yang akhir-akhir ini marak di
    Aplikasi ini memanfaatkan Flutter untuk memberikan pengalaman pengguna yang seragam dan responsif di berbagai platform mobile, termasuk Android dan iOS. Pengguna dapat dengan mudah mengakses dan mengelola kampanye iklan mereka tanpa harus menggunakan komputer.
 
    ![app_googleAds.jpg](../screenshot/soalprioritas1_no1/app_googleAds.png "Aplikasi Google Ads")
+
    *Gambar 1.1 Aplikasi Google Ads* (sumber : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.webpronews.com%2Fgoogle-gives-adsense-app-a-refresh%2F&psig=AOvVaw2b-Mp7CQhA6Gs5LSTBoVaZ&ust=1694447882966000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjnlrO0oIEDFQAAAAAdAAAAABAh)
 
 <br>
@@ -37,6 +38,7 @@ Flutter merupakan salah satu framework open-source yang akhir-akhir ini marak di
    Dengan Flutter, Xianyu dapat menyediakan pengalaman pengguna yang seragam di kedua platform utama (Android dan iOS). Ini juga memungkinkan untuk mengembangkan dan merilis pembaruan dengan cepat untuk kedua platform tanpa banyak kerumitan dalam pengembangan.
 
    ![app_alibabaXianyu.jpg](../screenshot/soalprioritas1_no1/app_alibabaXianyu.webp "Aplikasi Alibaba Xianyu (闲鱼)")
+   
    *Gambar 1.3 Aplikasi Alibaba Xianyu (闲鱼)* (sumber : https://play.google.com/store/apps/details?id=com.taobao.idlefish&hl=en_US)
 
 <br><br>
