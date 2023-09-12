@@ -56,3 +56,7 @@ Berikut adalah langkah-langkah untuk menambahkan package dalam proyek Flutter:
 9. Gunakan fungsi dan kelas yang disediakan oleh paket dalam kode Flutter.
 
    Contoh: `http.get(url).then((response) { // kode lain });`
+
+<br>
+
+Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-4/1.%20Installation%20Command%20Line%20Interface%20and%20Package%20Management%20in%20Flutter/praktikum)
