@@ -1,4 +1,4 @@
-# cli_and_packagemanagement_flutter
+# cli_flutter
 
 A new Flutter project.
 

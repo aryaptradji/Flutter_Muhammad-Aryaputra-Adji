@@ -1,6 +1,6 @@
 {
-    "name": "cli_and_packagemanagement_flutter",
-    "short_name": "cli_and_packagemanagement_flutter",
+    "name": "cli_flutter",
+    "short_name": "cli_flutter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
