@@ -29,7 +29,8 @@ class Home extends StatelessWidget {
                   EdgeInsets.only(top: 20, left: 15, right: 15, bottom: 10),
               child: Text(
                 'Contact List',
-                style: TextStyle(fontSize: 20),
+                style: TextStyle(
+                    color: Color.fromARGB(255, 37, 245, 179), fontSize: 20),
               )),
           ListView.separated(
             physics: const NeverScrollableScrollPhysics(),
