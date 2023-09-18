@@ -18,7 +18,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Material App',
+          'Contact App',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
       ),
