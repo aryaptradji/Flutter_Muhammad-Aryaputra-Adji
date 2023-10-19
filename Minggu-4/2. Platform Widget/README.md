@@ -99,7 +99,7 @@ Contact App
 ### **SOAL PRIORITAS 2**
 Cupertino App
 
-![](screenshot/soal_prioritas_2/cupertino_app.png)
+![](screenshot/soal_prioritas_2/cupertino_app.PNG)
 
 <br>
 
