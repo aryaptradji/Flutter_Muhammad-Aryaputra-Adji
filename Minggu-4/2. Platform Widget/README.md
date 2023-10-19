@@ -103,4 +103,15 @@ Cupertino App
 
 <br>
 
+### **SOAL EKSPLORASI**
+My Flutter App
+
+![](screenshot/soal_eksplorasi/myFlutterApp_favoritePage.png)
+
+![](screenshot/soal_eksplorasi/myFlutterApp_searchPage.png)
+
+![](screenshot/soal_eksplorasi/myFlutterApp_informationPage.png)
+
+<br>
+
 Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-4/2.%20Platform%20Widget/praktikum)
