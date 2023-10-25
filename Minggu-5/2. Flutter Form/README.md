@@ -59,6 +59,8 @@ Ada beberapa komponen penting dalam Flutter Form:
 
 ![edit_data.png](screenshot/soal_prioritas_2/edit_data_2.png "Mengambil data pada ListTile yang ditekan tombol editnya")
 
+![edit_data.png](screenshot/soal_prioritas_2/edit_data_3.png "Hasil edit Nama Blarzt berubah menjadi Blarzttt")
+
 <br>
 
 ### **SOAL EKSPLORASI**

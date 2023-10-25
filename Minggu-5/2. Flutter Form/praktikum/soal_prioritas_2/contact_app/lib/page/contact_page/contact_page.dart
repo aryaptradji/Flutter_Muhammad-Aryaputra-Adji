@@ -1,6 +1,5 @@
-import 'package:contact_app/page/contact_page/widget/contact_data.dart';
+import 'package:contact_app/model/contact_model.dart';
 import 'package:contact_app/page/contact_page/widget/header_contact_widget.dart';
-
 import 'package:contact_app/theme/theme_color.dart';
 import 'package:contact_app/theme/theme_text_style.dart';
 import 'package:contact_app/widget/text_form_field_widget.dart';
@@ -16,11 +15,23 @@ class ContactPage extends StatefulWidget {
 class _ContactPageState extends State<ContactPage> {
   final _nameController = TextEditingController();
   final _nomorController = TextEditingController();
-  bool isEditPressed = false;
 
-  List<ContactData> contactData = [];
-
+  List<ContactModel> contactModel = [];
   final formKey = GlobalKey<FormState>();
+
+  int selectedIndex = -1;
+
+  void updateContact(int index) {
+    if (_nameController.text.isNotEmpty && _nomorController.text.isNotEmpty) {
+      contactModel[index] = ContactModel(
+        name: _nameController.text,
+        nomor: _nomorController.text,
+      );
+      _nameController.clear();
+      _nomorController.clear();
+      index = -1;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -71,23 +82,27 @@ class _ContactPageState extends State<ContactPage> {
                       color: Colors.transparent,
                       child: InkWell(
                         onTap: () {
-                          if (contactData.isNotEmpty == true) {
-                            contactData.insert(
-                                0,
-                                ContactData(
-                                  name: _nameController.text,
-                                  nomor: _nomorController.text,
-                                ));
-                            _nameController.clear();
-                            _nomorController.clear();
-                          } else if (contactData.isEmpty == true) {
-                            contactData.add(ContactData(
-                              name: _nameController.text,
-                              nomor: _nomorController.text,
-                            ));
-                            _nameController.clear();
-                            _nomorController.clear();
+                          if (selectedIndex == -1) {
+                            if (contactModel.isNotEmpty == true) {
+                              contactModel.insert(
+                                  0,
+                                  ContactModel(
+                                    name: _nameController.text,
+                                    nomor: _nomorController.text,
+                                  ));
+                              _nameController.clear();
+                              _nomorController.clear();
+                            } else if (contactModel.isEmpty == true) {
+                              contactModel.add(ContactModel(
+                                name: _nameController.text,
+                                nomor: _nomorController.text,
+                              ));
+                              _nameController.clear();
+                              _nomorController.clear();
+                            }
+                            setState(() {});
                           }
+                          updateContact(selectedIndex);
                           setState(() {});
                         },
                         borderRadius: BorderRadius.circular(20),
@@ -121,15 +136,15 @@ class _ContactPageState extends State<ContactPage> {
                 ),
                 color: ThemeColor().m3SysLightPurple50),
             child: ListView.builder(
-              itemCount: contactData.length,
+              itemCount: contactModel.length,
               itemBuilder: (context, index) {
                 return ListTile(
                   title: Text(
-                    contactData[index].name ?? "",
+                    contactModel[index].name ?? "",
                     style: ThemeTextStyle().m3BodyLarge,
                   ),
                   subtitle: Text(
-                    contactData[index].nomor ?? "",
+                    contactModel[index].nomor ?? "",
                     style: ThemeTextStyle().m3BodyMedium,
                   ),
                   leading: Container(
@@ -141,7 +156,7 @@ class _ContactPageState extends State<ContactPage> {
                         color: ThemeColor().m3SysLightPurple90),
                     child: Center(
                       child: Text(
-                        contactData[index].name?[0] ?? "",
+                        contactModel[index].name?[0] ?? "",
                         style: ThemeTextStyle().m3TitleMedium,
                       ),
                     ),
@@ -153,16 +168,17 @@ class _ContactPageState extends State<ContactPage> {
                         onPressed: () {
                           setState(() {
                             _nameController.text =
-                                contactData[index].name ?? "";
+                                contactModel[index].name ?? "";
                             _nomorController.text =
-                                contactData[index].nomor ?? "";
+                                contactModel[index].nomor ?? "";
+                            selectedIndex = index;
                           });
                         },
                       ), // icon-1
                       IconButton(
                         icon: const Icon(Icons.delete),
                         onPressed: () {
-                          contactData.removeAt(index);
+                          contactModel.removeAt(index);
                           setState(() {});
                         },
                       ), // icon-1

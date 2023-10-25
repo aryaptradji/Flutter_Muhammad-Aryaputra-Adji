@@ -1,8 +1,8 @@
 import 'package:contact_app/page/contact_page/contact_page.dart';
 
-class ContactData extends ContactPage {
+class ContactModel extends ContactPage {
   String? name;
   String? nomor;
 
-  ContactData({super.key, this.name, this.nomor});
+  ContactModel({super.key, this.name, this.nomor});
 }
