@@ -1,6 +1,5 @@
-import 'package:contact_app/page/contact_page/widget/contact_data.dart';
+import 'package:contact_app/page/contact_page/widget/contact_model.dart';
 import 'package:contact_app/page/contact_page/widget/header_contact_widget.dart';
-import 'package:contact_app/page/contact_page/widget/list_contact_widget.dart';
 import 'package:contact_app/theme/theme_color.dart';
 import 'package:contact_app/theme/theme_text_style.dart';
 import 'package:contact_app/widget/text_form_field_widget.dart';
@@ -16,6 +15,8 @@ class ContactPage extends StatefulWidget {
 class _ContactPageState extends State<ContactPage> {
   final nameController = TextEditingController();
   final nomorController = TextEditingController();
+
+  List<ContactModel> contactModel = [];
 
   @override
   Widget build(BuildContext context) {
@@ -67,11 +68,11 @@ class _ContactPageState extends State<ContactPage> {
                       child: InkWell(
                         onTap: () {
                           setState(() {
-                            contactData.add(ContactData(
+                            contactModel.add(ContactModel(
                                 name: nameController.text,
                                 nomor: nomorController.text));
                           });
-                          print(contactData);
+                          print(contactModel);
                         },
                         borderRadius: BorderRadius.circular(20),
                         splashColor: Colors.white30,
