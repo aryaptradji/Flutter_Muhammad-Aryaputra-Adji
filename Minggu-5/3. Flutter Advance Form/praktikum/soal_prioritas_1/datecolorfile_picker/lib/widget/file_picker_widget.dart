@@ -21,7 +21,8 @@ class _FilePickerWidgetState extends State<FilePickerWidget> {
   }
 
   void choosePhoto() async {
-    FilePickerResult? selectedPhoto = await FilePicker.platform.pickFiles();
+    FilePickerResult? selectedPhoto =
+        await FilePicker.platform.pickFiles(type: FileType.image);
 
     if (selectedPhoto != null) {
       photo = selectedPhoto;

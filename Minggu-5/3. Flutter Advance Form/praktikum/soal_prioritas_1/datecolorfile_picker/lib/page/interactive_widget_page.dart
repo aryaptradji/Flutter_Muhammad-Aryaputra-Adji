@@ -64,8 +64,6 @@ class _InteractiveWidgetPageState extends State<InteractiveWidgetPage> {
                       });
                     }),
                 const SizedBox(height: 40),
-                const Text("Photo :"),
-                const SizedBox(height: 20),
                 const FilePickerWidget(),
               ],
             );
