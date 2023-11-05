@@ -326,4 +326,4 @@ Gambar ditampilkan pada halaman &nbsp;`ImagePage`
 
 <br>
 
-Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-6/1.%20Assets/praktikum)
+Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-6/2.%20Dialog%20ModalBottomSheet/praktikum)
