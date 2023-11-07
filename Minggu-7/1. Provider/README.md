@@ -16,6 +16,7 @@ provider: ^6.0.5
 ```
 
 Seperti pada file &nbsp;`pubspec.yaml`&nbsp; saya :
+
 ![tambah_depedencies.jpg](screenshot/tambah_depedencies.jpg "Tambah library 'provider' pada depedencies")
 
 <br>
@@ -25,9 +26,11 @@ Seperti pada file &nbsp;`pubspec.yaml`&nbsp; saya :
 File ini akan berisi properti-properti, method-method, maupun widget-widget yang di dalamnya terdapat logic. Seperti saya membuat class Provider untuk halaman &nbsp;`AddContactPage`&nbsp; dan juga halaman &nbsp;`EditContactPage`&nbsp;.
 
 Class &nbsp;`provider`&nbsp; untuk halaman &nbsp;`AddContactPage`&nbsp; :
+
 ![provider_addContactPage.png](screenshot/addContactChangeNotifier.jpg "Membuat class provider dengan 'ChangeNotifier' pada halaman AddContactPage ")
 
 Class &nbsp;`provider`&nbsp; untuk halaman &nbsp;`EditContactPage`&nbsp; :
+
 ![provider_editContactPage.png](screenshot/editContactChangeNotifier.png "Membuat class provider dengan `ChangeNotifier` pada halaman EditContactPage")
 
 <br>
@@ -81,4 +84,4 @@ Mengimplementasikan State Management berupa Provider ke dalam projek tugas Asset
 
 <br>
 
-Untuk melihat hasil praktikum, dapat klik [di sini]()
+Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-7/1.%20Provider/praktikum)
