@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:open_file/open_file.dart';
 
 import '../model/contact_model.dart';
+import '../page/edit_contact_page.dart';
 
 class EditContactChangeNotifier with ChangeNotifier {
   // Property photo
@@ -143,5 +144,17 @@ class EditContactChangeNotifier with ChangeNotifier {
       );
       notifyListeners();
     }
+  }
+
+  void initValue(BuildContext context) {
+    final editArguments =
+        ModalRoute.of(context)!.settings.arguments as EditContactArguments;
+
+    _nameController.text = editArguments.contactModel.name!;
+    _phoneController.text = editArguments.contactModel.nomor!;
+    _currentDate = editArguments.contactModel.currentDate!;
+    _myColor = editArguments.contactModel.myColor!;
+    _photo = editArguments.contactModel.photo;
+    _namaFile = editArguments.contactModel.namaFile ?? "No photo yet.";
   }
 }

@@ -24,17 +24,19 @@ class EditContactPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final editContactProvider = Provider.of<EditContactChangeNotifier>(context);
 
-    final editArguments =
-        ModalRoute.of(context)!.settings.arguments as EditContactArguments;
+    // final editArguments =
+    //     ModalRoute.of(context)!.settings.arguments as EditContactArguments;
 
-    editContactProvider.nameController.text = editArguments.contactModel.name!;
-    editContactProvider.phoneController.text =
-        editArguments.contactModel.nomor!;
-    editContactProvider.currentDate = editArguments.contactModel.currentDate!;
-    editContactProvider.myColor = editArguments.contactModel.myColor!;
-    editContactProvider.photo = editArguments.contactModel.photo;
-    editContactProvider.namaFile =
-        editArguments.contactModel.namaFile ?? "No photo yet.";
+    // editContactProvider.nameController.text = editArguments.contactModel.name!;
+    // editContactProvider.phoneController.text =
+    //     editArguments.contactModel.nomor!;
+    // editContactProvider.currentDate = editArguments.contactModel.currentDate!;
+    // editContactProvider.myColor = editArguments.contactModel.myColor!;
+    // editContactProvider.photo = editArguments.contactModel.photo;
+    // editContactProvider.namaFile =
+    //     editArguments.contactModel.namaFile ?? "No photo yet.";
+
+    editContactProvider.initValue(context);
 
     return Scaffold(
       appBar: AppBar(
