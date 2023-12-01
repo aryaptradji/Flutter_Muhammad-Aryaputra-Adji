@@ -97,7 +97,7 @@ class HomeScreen extends StatelessWidget {
                       splashColor: Colors.lightBlue[100],
                       onTap: () {},
                       title: Text(
-                        data.name ?? "",
+                        data.name,
                         style: ThemeTextStyle().m3BodyLarge,
                       ),
                       subtitle: Text(data.phone),
@@ -105,7 +105,7 @@ class HomeScreen extends StatelessWidget {
                           ? CircleAvatar(
                               radius: 40,
                               child: Text(
-                                data.name?.split("")[0] ?? "",
+                                data.name.split("")[0],
                                 style: ThemeTextStyle().m3TitleMedium,
                               ),
                             )
