@@ -315,4 +315,4 @@ Langkah-langkah yang saya lakukan:
 
 <br>
 
-Untuk melihat hasil praktikum, dapat klik [di sini]()
+Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-8/1.%20JSON%20Serialization%20Deserialization/praktikum)
