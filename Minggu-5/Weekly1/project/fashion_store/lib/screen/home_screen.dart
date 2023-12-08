@@ -86,6 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
       },
       child: Scaffold(
         appBar: AppBar(
+          surfaceTintColor: Colors.transparent,
           backgroundColor: ThemeColor.primaryColor,
           leading: Padding(
             padding: const EdgeInsets.only(left: 16),
