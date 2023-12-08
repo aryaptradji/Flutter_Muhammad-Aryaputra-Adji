@@ -463,6 +463,6 @@ Dan saya juga sudah cari berbagai cara dari internet tetapi tetap tidak bisa jug
 
 ![](screenshot/soal_eksplorasi/feat_editcontact_test/ui.png)
 
-<br><br>
+<br>
 
-Untuk melihat hasil praktikum, dapat klik [di sini]()
+Untuk melihat hasil praktikum, dapat klik [di sini](https://github.com/aryaptradji/flutter_Muhammad-Aryaputra-Adji/tree/master/Minggu-9/1.%20UI%20Testing/praktikum)
