@@ -1,4 +1,4 @@
-# Praktikum
+# Summary
 
 # Intro REST API - JSON Serialization/Deserialization
 
