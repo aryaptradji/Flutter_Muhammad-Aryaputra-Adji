@@ -53,7 +53,7 @@ c. (Optional) Jika kita menekan tombol submit maka keluar alert yang berisikan d
     Kemudian, widget dipanggil pada &nbsp;`HomeScreen`&nbsp; untuk membuat 4 textfield nantinya yang terdiri dari :
 
     1. First Name
-    
+
        ![first_name_textfield.png](screenshot/first_name_textfield.png "First Name TextField")
 
     2. Last Name
@@ -78,15 +78,11 @@ c. (Optional) Jika kita menekan tombol submit maka keluar alert yang berisikan d
 
     ![deklarasi_field.png](screenshot/deklarasi_field_value_controller.png "Deklarasi field dan controller")
 
-    Berikut merupakan `validator` dari beberapa textfield :
-    5. **First Name `validator`**  
+    Berikut merupakan `validator` dari beberapa textfield :  
+    1. **First Name `validator`**  
        `Validator` ini berfungsi untuk membuat agar user tidak mengisi First Name `TextField` dengan angka atau karakter lainnya. Sehingga ketika user mengetik yang tidak sesuai dengan kriteria, maka `TextField` akan langsung mendeteksi adanya kesalahan dengan &nbsp;`onChanged`&nbsp; dan akan memunculkan &nbsp;`errorText`&nbsp; berupa 'Woops! No special characters or numbers..'.
 
        ![first_name_validator.png](screenshot/first_name_validator.png "First Name Validator")
-
-       **Hasil UI :**
-
-
 
     2. **Last Name `validator`**  
        `Validator` ini kurang lebih sama dengan First Name `validator`, menggunakan propeti &nbsp;`onChanged`&nbsp; dan akan memunculkan &nbsp;`errorText`&nbsp; berupa 'Woops! No special characters or numbers..'.
@@ -99,7 +95,7 @@ c. (Optional) Jika kita menekan tombol submit maka keluar alert yang berisikan d
        ![email_validator.png](screenshot/email_validator.png "Email Validator")
 
     Setelah itu, &nbsp;`Button`&nbsp; submit akan terus menjadi &nbsp;`disable`&nbsp; jika salah satu dari field kosong atau mengeluarkan &nbsp;`errorText`&nbsp;. Ketika sudah memenuhi kriteria dan sudah diisi semua, baru &nbsp;`Button`&nbsp; submit mempunyai warna dan bisa ditekan.
-
+    
     ![submit_success.png](screenshot/submit_success.png "Button submit success")
 
 <br>
