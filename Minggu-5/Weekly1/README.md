@@ -53,15 +53,19 @@ c. (Optional) Jika kita menekan tombol submit maka keluar alert yang berisikan d
     Kemudian, widget dipanggil pada &nbsp;`HomeScreen`&nbsp; untuk membuat 4 textfield nantinya yang terdiri dari :
 
     1. First Name
+    
        ![first_name_textfield.png](screenshot/first_name_textfield.png "First Name TextField")
 
     2. Last Name
+
        ![last_name_textfield.png](screenshot/last_name_textfield.png "Last Name TextField")
 
     3. Email 
+
        ![email_textfield.png](screenshot/email_text_field.png "Email Text Field")
 
     4. Help
+   
        ![help_textfield.png](screenshot/help_text_field.png "Help Text Field")
 
     **Hasil UI :**
@@ -75,7 +79,7 @@ c. (Optional) Jika kita menekan tombol submit maka keluar alert yang berisikan d
     ![deklarasi_field.png](screenshot/deklarasi_field_value_controller.png "Deklarasi field dan controller")
 
     Berikut merupakan `validator` dari beberapa textfield :
-    1. **First Name `validator`**  
+    5. **First Name `validator`**  
        `Validator` ini berfungsi untuk membuat agar user tidak mengisi First Name `TextField` dengan angka atau karakter lainnya. Sehingga ketika user mengetik yang tidak sesuai dengan kriteria, maka `TextField` akan langsung mendeteksi adanya kesalahan dengan &nbsp;`onChanged`&nbsp; dan akan memunculkan &nbsp;`errorText`&nbsp; berupa 'Woops! No special characters or numbers..'.
 
        ![first_name_validator.png](screenshot/first_name_validator.png "First Name Validator")
