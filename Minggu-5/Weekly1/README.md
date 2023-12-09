@@ -41,10 +41,10 @@ Welcome section (terdapat gambar dan kata-kata yang menarik user)**
 
     <br><br>
 
-3. Masih pada halaman yang sama. Jika dilakukan scroll makan akan terdapat section contact us dengan kriteria dari aplikasi adalah sebagai berikut:  
+3. **Masih pada halaman yang sama. Jika dilakukan scroll makan akan terdapat section contact us dengan kriteria dari aplikasi adalah sebagai berikut:  
 a. Memiliki 3 buat form(username bertime text, email bertime email, message bertipe text area)  
 b. Memiliki button submit.  
-c. (Optional) Jika kita menekan tombol submit maka keluar alert yang berisikan data yang kita masukkan pada form.
+c. (Optional) Jika kita menekan tombol submit maka keluar alert yang berisikan data yang kita masukkan pada form.**
 
     Pertama, saya membuat textfield menjadi widget component yang diberi nama &nbsp;`TextFieldComponent`&nbsp;.
 
